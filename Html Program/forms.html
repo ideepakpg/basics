@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <title>My First Website</title>
+</head>
+
+<body>
+
+    <form>
+
+        <div>
+            <label for="fname"> First Name:</label>
+            <input type="text" id="fname" name="fname" placeholder="Levi" required>
+        </div>
+
+        <br>
+
+        <div>
+            <label for="lname"> Last Name:</label>
+            <input type="text" id="lname" name="lname" placeholder="Ackerman" required>
+        </div>
+
+        <br>
+
+        <div>
+            <label for="pass"> Password:</label>
+            <input type="password" id="pass" name="pass" maxlength="12" required>
+        </div>
+
+        <br>
+
+        <div>
+            <label for="email"> E-mail:</label>
+            <input type="email" id="email" name="email" placeholder="leviackermankamona@gmail.com" required>
+        </div>
+
+        <br>
+
+        <div>
+            <label for="phone"> Phone Number:</label>
+            <input type="tel" id="phone" name="phone" maxlength="10" placeholder="9999999999" required>
+        </div>
+
+        <br>
+
+        <div>
+            <label for="bdate"> Date of Birth:</label>
+            <input type="date" id="bdate" name="pass" required>
+        </div>
+
+        <br>
+
+        <div>
+            <label for="quantity"> Quantity:</label>
+            <input type="number" id="quantity" name="quantity" min="0" max="30" value="1" required>
+        </div>
+
+        <br>
+
+            <!-- name="title" attribute is used to select only one from the radio -->
+
+        <div>
+            <label>Mr.</label>
+            <input type="radio" name="title">
+
+            <label>Mrs.</label>
+            <input type="radio" name="title">
+
+            <label>PhD.</label>
+            <input type="radio" name="title">
+        </div>
+
+        <br>
+
+        <div>
+            <label for="Payment"> Payment:</label>
+            <select id="payment" name="payment" required>
+
+                <option value="Google Pay">Google Pay</option>
+                <option value="Bank Transfer">Bank Transfer</option>
+                <option value="Credit Card">Credit Card</option>
+            </select>
+        </div>
+
+        <br>
+
+        <div>
+            <label for="subscribe"> Subscribe:</label>
+            <input type="checkbox" id="subscribe" name="subscribe" required>
+        </div>
+
+        <br>
+
+        <div>
+            <input type="reset">
+        </div>
+
+        <br>
+        
+        <div>
+            <input type="submit">
+        </div>
+
+    </form>
+    
+
+    
+</body>
+
+</html>
